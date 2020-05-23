@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    style="@style/background_show_food_list_row_item_layout"
+    android:layout_margin="@dimen/_10sdp"
+    android:id="@+id/fragment_reviews_row_item_layout_main">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#B1AAAA"
+        android:textSize="@dimen/_10ssp"
+        android:padding="@dimen/_5sdp"
+        android:id="@+id/fragment_reviews_row_item_tv_name"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="@dimen/_230sdp"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/_20ssp"
+            android:layout_marginEnd="@dimen/_5sdp"
+            android:layout_marginStart="@dimen/_5sdp"
+            android:layout_marginBottom="@dimen/_5sdp"
+            android:layout_gravity="center"
+            android:id="@+id/fragment_reviews_row_item_tv_comment"/>
+
+        <ImageView
+            android:layout_width="@dimen/_30sdp"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_marginBottom="@dimen/_10sdp"
+            android:layout_gravity="center"
+            android:id="@+id/fragment_reviews_row_item_iv_review"/>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="@dimen/_280sdp"
+    style="@style/background_fragment_client_contact_layout"
+    android:layout_gravity="center"
+    android:layout_margin="@dimen/_20sdp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Choose Your Review"
+        android:gravity="center"
+        android:textSize="@dimen/_20ssp"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:textColor="#000"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_55sdp"
+        android:gravity="center"
+        android:layout_marginTop="@dimen/_10sdp">
+
+        <ImageButton
+            android:layout_width="@dimen/_50sdp"
+            android:layout_height="@dimen/_50sdp"
+            app:srcCompat="@drawable/love"
+            android:background="#F7F4F4"/>
+
+        <ImageButton
+            android:layout_width="@dimen/_50sdp"
+            android:layout_height="@dimen/_50sdp"
+            android:background="#F7F4F4"
+            app:srcCompat="@drawable/so_happy"/>
+
+        <ImageButton
+            android:layout_width="@dimen/_50sdp"
+            android:layout_height="@dimen/_50sdp"
+            android:background="#F7F4F4"
+            app:srcCompat="@drawable/happy"/>
+
+        <ImageButton
+            android:layout_width="@dimen/_50sdp"
+            android:layout_height="@dimen/_50sdp"
+            android:background="#F7F4F4"
+            app:srcCompat="@drawable/sad"/>
+
+        <ImageButton
+            android:layout_width="@dimen/_50sdp"
+            android:layout_height="@dimen/_50sdp"
+            android:background="#F7F4F4"
+            app:srcCompat="@drawable/angery"/>
+
+    </LinearLayout>
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_100sdp"
+        android:background="@drawable/background_get_food_item_layout"
+        android:layout_marginTop="@dimen/_15sdp"
+        android:layout_marginStart="@dimen/_30sdp"
+        android:layout_marginEnd="@dimen/_30sdp"
+        android:hint="Add Your Comment Here"
+        android:gravity="top"
+        android:paddingTop="@dimen/_15sdp"
+        android:paddingStart="@dimen/_10sdp"/>
+
+    <LinearLayout
+        style="@style/background_fragment_complete_order_round_corner_layout_red"
+        android:layout_width="@dimen/_150sdp"
+        android:layout_height="@dimen/_30sdp"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Add"
+            android:textColor="#fff"
+            android:textSize="@dimen/_20ssp" />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

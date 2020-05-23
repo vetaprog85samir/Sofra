@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_30sdp"
+        android:textColor="#534F4F"
+        android:textSize="@dimen/_20ssp"
+        android:text="Offer Details"
+        android:gravity="center"
+        android:layout_margin="@dimen/_15sdp"/>
+    <LinearLayout
+        android:id="@+id/fragment_client_show_offers_list_row_item_layout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_250sdp"
+        android:layout_margin="@dimen/_15sdp"
+        android:background="@drawable/background_fragment_client_show_offers_list_row_item_layout"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_20sdp"
+            android:textSize="@dimen/_12ssp"
+            android:textColor="#423F3F"
+            android:text="Combo Offer"
+            android:gravity="center"
+            android:layout_marginEnd="@dimen/_20sdp"
+            android:layout_marginBottom="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_15sdp"/>
+
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_20sdp"
+            android:textSize="@dimen/_12ssp"
+            android:textColor="#423F3F"
+            android:text="Combo Offer + Fries + Cola"
+            android:gravity="center"
+            android:layout_marginEnd="@dimen/_20sdp"
+            android:layout_marginBottom="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_15sdp"/>
+
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_20sdp"
+            android:textSize="@dimen/_12ssp"
+            android:textColor="#423F3F"
+            android:text="From 2-9-2019"
+            android:gravity="center"
+            android:layout_marginEnd="@dimen/_20sdp"
+            android:layout_marginBottom="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_15sdp"/>
+
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_20sdp"
+            android:textSize="@dimen/_12ssp"
+            android:textColor="#423F3F"
+            android:text="To 10-9-2019"
+            android:gravity="center"
+            android:layout_marginEnd="@dimen/_20sdp"
+            android:layout_marginBottom="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_15sdp"/>
+
+        <LinearLayout
+            style="@style/background_fragment_complete_order_round_corner_layout_red"
+            android:layout_width="@dimen/_200sdp"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="@dimen/_5sdp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_5sdp"
+                android:text="Get It Now!"
+                android:textColor="#fff"
+                android:textSize="@dimen/_15ssp" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

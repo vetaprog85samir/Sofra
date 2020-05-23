@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:id="@+id/fragment_show_category_food_items_row_item_layout_main">
+
+    <com.chauthai.swipereveallayout.SwipeRevealLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_8sdp"
+        android:layout_marginTop="@dimen/_8sdp"
+        android:layout_marginEnd="@dimen/_4sdp"
+        android:background="@null"
+        app:dragEdge="right"
+        app:mode="same_level">
+
+        <LinearLayout
+            android:layout_width="@dimen/_90sdp"
+            android:layout_height="@dimen/_90sdp"
+            android:gravity="center">
+
+            <ImageButton
+                android:id="@+id/fragment_show_category_food_items_row_item_ib_delete"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ic_delete"
+                style="@style/margin_st_end"/>
+            <ImageButton
+                android:id="@+id/fragment_show_category_food_items_row_item_ib_edit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ic_edit_solid"/>
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/background_show_food_list_row_item_layout"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_90sdp"
+            android:layout_margin="@dimen/_20sdp"
+            android:gravity="center_vertical">
+
+            <ImageView
+                android:layout_width="@dimen/_50sdp"
+                android:layout_height="@dimen/_50sdp"
+                android:layout_margin="@dimen/_10sdp"
+                app:srcCompat="@drawable/ic_pizza_min"
+                android:id="@+id/fragment_show_category_food_items_row_item_iv"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/_10sdp"
+                        android:text="Chicken Fries"
+                        android:textColor="#000"
+                        android:textSize="@dimen/_20ssp"
+                        android:id="@+id/fragment_show_category_food_items_row_item_tv_food_item_name"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/_10sdp"
+                        android:text="Chicken Slices Within Sandwich "
+                        android:textColor="#000"
+                        android:textSize="@dimen/_8ssp"
+                        android:id="@+id/fragment_show_category_food_items_row_item_tv_food_item_description"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_30sdp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Price"
+                        android:textColor="#000"
+                        android:textSize="@dimen/_10ssp"
+                        android:layout_marginBottom="@dimen/_5sdp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="20 EGP"
+                        android:textColor="#000"
+                        android:textSize="@dimen/_10ssp"
+                        android:id="@+id/fragment_show_category_food_items_row_item_tv_food_item_price"/>
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </com.chauthai.swipereveallayout.SwipeRevealLayout>
+
+</LinearLayout>

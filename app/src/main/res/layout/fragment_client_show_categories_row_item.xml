@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/_80sdp" android:layout_height="@dimen/_80sdp">
+    <LinearLayout
+        android:layout_marginTop="@dimen/_8sdp"
+        style="@style/margin_st_end"
+        android:id="@+id/item_category_restaurant_details_list_ci_ll"
+        android:layout_width="@dimen/_40sdp"
+        android:layout_height="@dimen/_40sdp"
+        android:background="@drawable/shape_circle_white">
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/item_category_restaurant_details_list_ci_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <TextView
+        style="@style/margin_st_end"
+        android:textColor="#9C27B0"
+        android:textSize="@dimen/_11ssp"
+        android:gravity="center"
+        android:layout_below="@+id/item_category_restaurant_details_list_ci_ll"
+        android:id="@+id/item_category_restaurant_details_list_tv_category"
+        android:layout_width="@dimen/_80sdp"
+        android:layout_height="@dimen/_40sdp"/>
+
+</RelativeLayout>

@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/fragment_list_of_restaurants_row_item_layout_main"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/_8sdp"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:id="@+id/fragment_list_of_restaurants_row_item_layout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_130sdp"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="-50dp"
+        android:layout_marginBottom="@dimen/_8sdp"
+        android:layout_toEndOf="@id/fragment_list_of_restaurants_row_item_iv"
+        android:background="@drawable/background_list_of_restaurants_row_item_layout"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginStart="@dimen/_20sdp">
+
+            <LinearLayout
+                android:layout_width="@dimen/_120sdp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/fragment_list_of_restaurants_row_item_tv_restaurant_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#E64A1C"
+                    android:textSize="@dimen/_15ssp"
+                    android:text="KFC Chicken"/>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginBottom="@dimen/_10sdp">
+                    <ImageView
+                        android:id="@+id/fragment_list_of_restaurants_row_item_iv_star1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:srcCompat="@drawable/ic_star_border_red"/>
+                    <ImageView
+                        android:id="@+id/fragment_list_of_restaurants_row_item_iv_star2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:srcCompat="@drawable/ic_star_border_red"/>
+                    <ImageView
+                        android:id="@+id/fragment_list_of_restaurants_row_item_iv_star3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:srcCompat="@drawable/ic_star_border_red"/>
+                    <ImageView
+                        android:id="@+id/fragment_list_of_restaurants_row_item_iv_star4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:srcCompat="@drawable/ic_star_border_red"/>
+                    <ImageView
+                        android:id="@+id/fragment_list_of_restaurants_row_item_iv_star5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:srcCompat="@drawable/ic_star_border_red"/>
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/fragment_list_of_restaurants_row_item_tv_min_charge"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/_7ssp"
+                    android:textColor="#5A5858"
+                    android:text="Minimum Charge For Order: 10 EGP"/>
+
+                <TextView
+                    android:id="@+id/fragment_list_of_restaurants_row_item_tv_delivery_fees"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/_10ssp"
+                    android:textColor="#5A5858"
+                    android:text="Delivery Fees: 10 EGP" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="@dimen/_70sdp"
+                android:layout_height="@dimen/_40sdp"
+                android:layout_marginStart="@dimen/_3sdp">
+                <Button
+                    android:id="@+id/fragment_list_of_restaurants_row_item_btn_state"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/_40sdp"
+                    android:drawableStart="@drawable/ic_btn_green"
+                    android:text="Open"
+                    android:textSize="@dimen/_10ssp"
+                    android:background="#fff"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/fragment_list_of_restaurants_row_item_iv"
+        android:layout_width="@dimen/_100sdp"
+        android:layout_height="@dimen/_100sdp"
+        android:layout_marginTop="@dimen/_15sdp"
+        android:background="@drawable/ic_kfc_logo"
+        android:gravity="center_horizontal"
+        android:scaleType="centerCrop" />
+
+
+</RelativeLayout>

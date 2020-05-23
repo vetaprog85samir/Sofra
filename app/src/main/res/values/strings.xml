@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Sofra</string>
+    <string name="title_home">Home</string>
+    <string name="title_menu">Menu</string>
+    <string name="title_account">Account</string>
+    <string name="title_more">More</string>
+    <string name="food_list">Food List</string>
+    <string name="comment_reviews">Comments and Reviews</string>
+    <string name="restaurant_info">Restaurant Info</string>
+    <string name="offers">Offers</string>
+    <string name="all">All</string>
+    <string name="fries">Fries</string>
+    <string name="desert">Desert</string>
+    <string name="pizza">Pizza</string>
+    <string name="minus">minus</string>
+    <string name="decrease">decrease</string>
+    <string name="value">value</string>
+    <string name="quantity">quantity</string>
+    <string name="increase">increase</string>
+    <string name="plus">plus</string>
+    <string name="state">state</string>
+    <string name="city">city</string>
+    <string name="region">region</string>
+    <string name="minimum_order">minimum charge</string>
+    <string name="delivery_cost">delivery cost</string>
+    <string name="edit_item">Edit Item</string>
+    <string name="add_item">add item</string>
+    <string name="edit_offers">edit offers</string>
+    <string name="add_offers">add offers</string>
+    <string name="are_you_sure_to_logout">Are you sure to logout?</string>
+</resources>

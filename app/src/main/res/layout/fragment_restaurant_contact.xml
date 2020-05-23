@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/reg_login_small"
+    android:id="@+id/fragment_restaurant_contact">
+
+    <TextView
+        android:id="@+id/fragment_restaurant_contact_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/_20ssp"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:text="Contact Info"
+        android:layout_marginTop="@dimen/_40sdp"
+        android:layout_marginStart="@dimen/_30sdp"
+        android:layout_marginEnd="@dimen/_30sdp"/>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/fragment_restaurant_contact_input_phone"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_50sdp"
+        android:hint="  Mobile Number">
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_50sdp"
+            android:layout_marginStart="@dimen/_30sdp"
+            android:layout_marginEnd="@dimen/_30sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:textSize="@dimen/_17ssp"
+            android:drawableLeft="@drawable/ic_phone_white">
+        </com.google.android.material.textfield.TextInputEditText>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/fragment_restaurant_contact_whatsapp"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_50sdp"
+        android:hint="  Whats app">
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_50sdp"
+            android:layout_marginStart="@dimen/_30sdp"
+            android:layout_marginEnd="@dimen/_30sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:textSize="@dimen/_17ssp"
+            android:drawableLeft="@drawable/ic_phone_white">
+        </com.google.android.material.textfield.TextInputEditText>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/_20ssp"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:text="Store Photo"
+        android:layout_marginEnd="@dimen/_30sdp"
+        android:layout_marginStart="@dimen/_30sdp"
+        android:layout_marginTop="@dimen/_10sdp"/>
+
+    <LinearLayout
+        android:id="@+id/fragment_restaurant_contact_iv_restore_photo"
+        android:layout_marginEnd="@dimen/_30sdp"
+        android:layout_marginStart="@dimen/_30sdp"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:layout_marginBottom="@dimen/_20sdp"
+        android:layout_width="@dimen/_70sdp"
+        android:layout_height="@dimen/_70sdp"
+        style="@style/background_fragment_forget_password_layout">
+
+        <ImageView
+            android:id="@+id/fragment_restaurant_contact_iv_restaurant_photo"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:srcCompat="@drawable/ic_store_black"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/fragment_restaurant_contact_btn_register"
+        style="@style/background_fragment_complete_order_round_corner_layout_red"
+        android:layout_width="@dimen/_150sdp"
+        android:layout_height="@dimen/_30sdp"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/_30sdp"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:padding="@dimen/_5sdp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="@dimen/_80sdp"
+        android:layout_marginEnd="@dimen/_80sdp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_5sdp"
+            android:text="  Register"
+            android:drawableLeft="@drawable/ic_exit_to_app"
+            android:textColor="#fff"
+            android:textSize="@dimen/_15ssp" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/_8sdp"
+    android:background="@drawable/shape_circle_rect_grey">
+    <ImageView
+        android:id="@+id/item_cart_list_iv_image"
+        android:layout_alignParentStart="true"
+        android:layout_width="@dimen/_70sdp"
+        android:layout_height="@dimen/_80sdp"
+        android:layout_centerVertical="true"
+        android:background="@drawable/shape_square"
+        />
+    <LinearLayout
+        style="@style/margin_16dp"
+        android:id="@+id/item_cart_list_ll_name"
+        android:layout_toEndOf="@+id/item_cart_list_iv_image"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/item_cart_list_tv_name"
+            android:textColor="#9C27B0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/_18ssp"/>
+        <TextView
+            android:id="@+id/item_cart_list_tv_cost"
+            android:textColor="#9C27B0"
+            style="@style/margin_st_end"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/_18ssp"/>
+    </LinearLayout>
+    <LinearLayout
+        style="@style/margin_st_end"
+        android:id="@+id/item_cart_list_ll_quantity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@+id/item_cart_list_iv_image"
+
+        android:layout_below="@+id/item_cart_list_ll_name"
+        android:layout_marginTop="@dimen/_16sdp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/quantity"
+            android:textSize="@dimen/_10ssp"
+            android:layout_marginEnd="@dimen/_5sdp"
+            android:textColor="#000"/>
+
+        <ImageButton
+            style="@style/background_get_food_item_iv_add"
+            android:layout_width="@dimen/_32sdp"
+            android:layout_height="@dimen/_32sdp"
+            android:id="@+id/fragment_cart_row_item_btn_plus"/>
+
+
+        <TextView
+            style="@style/text_view_round_corner_white"
+            android:layout_width="@dimen/_90sdp"
+            android:layout_height="@dimen/_32sdp"
+            android:gravity="center"
+            android:textColor="#555252"
+            android:textSize="@dimen/_7ssp"
+            android:id="@+id/fragment_cart_row_item_tv_number_of_orders"/>
+
+
+        <ImageButton
+            style="@style/background_get_food_item_iv_remove"
+            android:layout_width="@dimen/_32sdp"
+            android:layout_height="@dimen/_32sdp"
+            android:id="@+id/fragment_cart_row_item_btn_minus"/>
+
+
+    </LinearLayout>
+    <Button
+        android:id="@+id/item_cart_list_bt_cancel"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="@dimen/_16sdp"
+        android:layout_marginEnd="@dimen/_8sdp"
+        android:drawableTop="@drawable/ic_wrong"
+        android:layout_width="@dimen/_32sdp"
+        android:layout_height="@dimen/_32sdp"
+        android:background="@drawable/shape_circle_white"/>
+</RelativeLayout>

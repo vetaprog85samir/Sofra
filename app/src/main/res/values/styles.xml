@@ -1,0 +1,268 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:spinnerStyle">@style/holoSpinner</item>
+    </style>
+
+    <style name="text_input">
+
+        <item name="android:background">@drawable/background_text_round_corner_grey</item>
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+        <item name="android:textColorHint">@color/colorPrimaryDark</item>
+        <item name="android:layout_marginTop">@dimen/_4sdp</item>
+        <item name="android:layout_marginBottom">@dimen/_4sdp</item>
+        <item name="android:layout_marginStart">@dimen/_8sdp</item>
+        <item name="android:layout_marginEnd">@dimen/_8sdp</item>
+
+    </style>
+
+    <style name="text_input_layout">
+
+        <item name="android:background">@drawable/background_text_round_corner_grey</item>
+        <item name="android:layout_marginTop">@dimen/_4sdp</item>
+        <item name="android:layout_marginBottom">@dimen/_4sdp</item>
+        <item name="android:layout_marginStart">@dimen/_8sdp</item>
+        <item name="android:layout_marginEnd">@dimen/_8sdp</item>
+
+    </style>
+
+    <style name="text_view_round_corner_grey">
+
+        <item name="android:background">@drawable/background_text_round_corner_grey</item>
+        <item name="android:layout_marginTop">@dimen/_4sdp</item>
+        <item name="android:layout_marginBottom">@dimen/_4sdp</item>
+        <item name="android:layout_marginStart">@dimen/_8sdp</item>
+        <item name="android:layout_marginEnd">@dimen/_8sdp</item>
+
+    </style>
+    <style name="text_view_round_corner_white">
+
+        <item name="android:background">@drawable/background_text_round_corner_white</item>
+        <item name="android:layout_marginTop">@dimen/_4sdp</item>
+        <item name="android:layout_marginBottom">@dimen/_4sdp</item>
+
+    </style>
+
+    <style name="SCBSwitch" parent="Theme.AppCompat.Light">
+    <!-- active thumb & track color (30% transparency) -->
+        <item name="colorControlActivated">#E91E63</item>
+    </style>
+
+    <style name="spinner_style_arrow_downward" parent="Widget.AppCompat.Spinner">
+
+        <item name="android:background">@drawable/background_spinner_arrow_downward</item>
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+        <item name="android:textColorHint">@color/colorPrimaryDark</item>
+        <item name="android:layout_marginTop">@dimen/_4sdp</item>
+        <item name="android:layout_marginBottom">@dimen/_4sdp</item>
+        <item name="android:layout_marginStart">@dimen/_8sdp</item>
+        <item name="android:layout_marginEnd">@dimen/_8sdp</item>
+
+
+    </style>
+
+    <style name="spinner_arrow_and_home_black" parent="Widget.AppCompat.Spinner">
+
+        <item name="android:background">@drawable/background_spinner_arrow_and_home_black</item>
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+        <item name="android:textColorHint">@color/colorPrimaryDark</item>
+        <item name="android:layout_marginTop">@dimen/_4sdp</item>
+        <item name="android:layout_marginBottom">@dimen/_4sdp</item>
+        <item name="android:layout_marginStart">@dimen/_10sdp</item>
+        <item name="android:layout_marginEnd">@dimen/_10sdp</item>
+
+
+    </style>
+
+    <style name="spinner_style_arrow_downward_black" parent="Widget.AppCompat.Spinner">
+
+        <item name="android:background">@drawable/background_spinner_arrow_downward_black</item>
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+        <item name="android:textColorHint">@color/colorPrimaryDark</item>
+        <item name="android:layout_marginTop">@dimen/_4sdp</item>
+        <item name="android:layout_marginBottom">@dimen/_4sdp</item>
+        <item name="android:layout_marginEnd">@dimen/_8sdp</item>
+
+
+    </style>
+
+
+
+    <style name="holoSpinner" parent="Widget.AppCompat.Spinner.Underlined">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+    </style>
+
+    <style name="spinner_style_arrow_downward_with_underline" parent="Widget.AppCompat.Spinner.Underlined">
+
+        <item name="android:background">@drawable/background_spinner_arrow_downward_with_underline</item>
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+        <item name="android:textColorHint">@color/colorPrimaryDark</item>
+        <item name="android:layout_marginTop">@dimen/_4sdp</item>
+        <item name="android:layout_marginBottom">@dimen/_4sdp</item>
+        <item name="android:layout_marginEnd">@dimen/_8sdp</item>
+
+
+    </style>
+
+    <style name="spinner_style_search" parent="Widget.AppCompat.Spinner">
+
+        <item name="android:background">@drawable/background_spinner_search</item>
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+        <item name="android:textColorHint">@color/colorPrimaryDark</item>
+        <item name="android:layout_marginTop">@dimen/_4sdp</item>
+        <item name="android:layout_marginBottom">@dimen/_4sdp</item>
+        <item name="android:layout_marginStart">@dimen/_8sdp</item>
+        <item name="android:layout_marginEnd">@dimen/_8sdp</item>
+
+
+    </style>
+
+
+
+    <style name="background_show_food_list_row_item_layout">
+
+        <item name="android:background">@drawable/background_show_food_list_row_item_layout</item>
+        <item name="android:layout_marginStart">@dimen/_4sdp</item>
+        <item name="android:layout_marginEnd">@dimen/_4sdp</item>
+
+    </style>
+
+    <style name="background_get_food_item_layout">
+
+        <item name="android:background">@drawable/background_get_food_item_layout</item>
+        <item name="android:layout_marginStart">@dimen/_4sdp</item>
+        <item name="android:layout_marginEnd">@dimen/_4sdp</item>
+
+    </style>
+
+    <style name="background_fragment_complete_order_layout">
+
+        <item name="android:background">@drawable/background_fragment_complete_order_layout</item>
+        <item name="android:layout_marginStart">@dimen/_4sdp</item>
+        <item name="android:layout_marginEnd">@dimen/_4sdp</item>
+
+    </style>
+
+    <style name="background_fragment_client_contact_layout">
+
+        <item name="android:background">@drawable/background_fragment_client_contact_layout</item>
+        <item name="android:layout_marginStart">@dimen/_4sdp</item>
+        <item name="android:layout_marginEnd">@dimen/_4sdp</item>
+
+    </style>
+
+    <style name="background_fragment_client_about_layout">
+
+        <item name="android:background">@drawable/background_fragment_client_about_layout</item>
+        <item name="android:layout_marginStart">@dimen/_4sdp</item>
+        <item name="android:layout_marginEnd">@dimen/_4sdp</item>
+
+    </style>
+
+    <style name="background_fragment_forget_password_layout">
+
+        <item name="android:background">@drawable/background_fragment_forget_password_layout</item>
+        <item name="android:layout_marginStart">@dimen/_4sdp</item>
+        <item name="android:layout_marginEnd">@dimen/_4sdp</item>
+
+    </style>
+
+    <style name="background_fragment_complete_order_round_corner_layout_green">
+
+        <item name="android:background">@drawable/background_fragment_complete_order_round_corner_layout_green</item>
+        <item name="android:layout_marginStart">@dimen/_4sdp</item>
+        <item name="android:layout_marginEnd">@dimen/_4sdp</item>
+
+    </style>
+    <style name="background_fragment_complete_order_round_corner_layout_purple">
+
+        <item name="android:background">@drawable/background_fragment_complete_order_round_corner_layout_purple</item>
+        <item name="android:layout_marginStart">@dimen/_4sdp</item>
+        <item name="android:layout_marginEnd">@dimen/_4sdp</item>
+
+    </style>
+
+    <style name="background_fragment_complete_order_round_corner_layout_red">
+
+        <item name="android:background">@drawable/background_fragment_complete_order_round_corner_layout_red</item>
+        <item name="android:layout_marginStart">@dimen/_4sdp</item>
+        <item name="android:layout_marginEnd">@dimen/_4sdp</item>
+
+    </style>
+    <style name="background_get_food_item_iv_add">
+
+        <item name="android:background">@drawable/background_add_circle_shape</item>
+        <item name="android:layout_margin">@dimen/_4sdp</item>
+
+    </style>
+
+    <style name="background_dialog_add_category">
+
+        <item name="android:background">@drawable/background_dialog_add_category</item>
+        <item name="android:layout_margin">@dimen/_4sdp</item>
+
+    </style>
+
+    <style name="background_get_food_item_iv_remove">
+
+        <item name="android:background">@drawable/background_remove_circle_shape</item>
+        <item name="android:layout_margin">@dimen/_4sdp</item>
+
+    </style>
+
+    <style name="background_get_food_item_iv_cart">
+
+        <item name="android:background">@drawable/background_cart_circle_shape</item>
+        <item name="android:layout_marginStart">@dimen/_4sdp</item>
+        <item name="android:layout_marginEnd">@dimen/_4sdp</item>
+
+    </style>
+
+    <style name="background_fragment_cart_row_item_btn_close">
+
+        <item name="android:background">@drawable/background_close_circle_shape</item>
+        <item name="android:layout_marginStart">@dimen/_4sdp</item>
+        <item name="android:layout_marginEnd">@dimen/_4sdp</item>
+
+    </style>
+
+    <style name="background_fragment_confirm_order_btn_checked">
+
+        <item name="android:background">@drawable/background_done_circle_shape</item>
+        <item name="android:layout_marginStart">@dimen/_4sdp</item>
+        <item name="android:layout_marginEnd">@dimen/_4sdp</item>
+
+    </style>
+    <style name="background_fragment_confirm_order_btn_unchecked">
+
+        <item name="android:background">@drawable/background_white_circle_shape</item>
+        <item name="android:layout_marginStart">@dimen/_4sdp</item>
+        <item name="android:layout_marginEnd">@dimen/_4sdp</item>
+
+    </style>
+
+    <style name="background_fragment_cart_tv_circular">
+
+        <item name="android:background">@drawable/background_fragment_cart_tv_circular</item>
+        <item name="android:layout_marginStart">@dimen/_4sdp</item>
+        <item name="android:layout_marginEnd">@dimen/_4sdp</item>
+
+    </style>
+
+    <style name="margin_st_end">
+        <item name="android:layout_marginStart">@dimen/_16sdp</item>
+        <item name="android:layout_marginEnd">@dimen/_16sdp</item>
+    </style>
+
+    <style name="margin_16dp">
+        <item name="android:layout_marginTop">@dimen/_16sdp</item>
+        <item name="android:layout_marginStart">@dimen/_16sdp</item>
+        <item name="android:layout_marginEnd">@dimen/_16sdp</item></style>
+
+</resources>

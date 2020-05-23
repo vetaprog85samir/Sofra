@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@drawable/reg_login_small"
+    android:id="@+id/fragment_restaurant_login">
+
+    <TextView
+        android:id="@+id/fragment_restaurant_login_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="@dimen/_30ssp"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:text="Login"
+        android:layout_margin="@dimen/_10sdp"/>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/fragment_restaurant_login_text_input_email"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_50sdp"
+        android:layout_marginStart="@dimen/_30sdp"
+        android:layout_marginEnd="@dimen/_30sdp"
+        android:layout_marginTop="@dimen/_50sdp"
+        android:layout_below="@id/fragment_restaurant_login_tv">
+
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_50sdp"
+            android:hint="  E-mail"
+            android:textSize="@dimen/_17ssp"
+            android:drawableLeft="@drawable/ic_email">
+        </com.google.android.material.textfield.TextInputEditText>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/fragment_restaurant_login_text_input_password"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_50sdp"
+        android:layout_marginStart="@dimen/_30sdp"
+        android:layout_marginEnd="@dimen/_30sdp"
+        android:layout_below="@id/fragment_restaurant_login_text_input_email">
+
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_50sdp"
+            android:hint="  Password"
+            android:textSize="@dimen/_17ssp"
+            android:drawableLeft="@drawable/ic_lock">
+        </com.google.android.material.textfield.TextInputEditText>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <TextView
+        android:id="@+id/fragment_restaurant_login_tv_forget_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@id/fragment_restaurant_login_text_input_password"
+        android:textSize="@dimen/_15ssp"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:text="Forget Password"
+        android:gravity="end"
+        android:layout_marginEnd="@dimen/_30sdp"
+        android:layout_marginStart="@dimen/_30sdp"
+        android:layout_marginTop="@dimen/_10sdp"/>
+
+    <LinearLayout
+        android:id="@+id/fragment_restaurant_login_btn_enter"
+        style="@style/background_fragment_complete_order_round_corner_layout_red"
+        android:layout_width="@dimen/_150sdp"
+        android:layout_height="@dimen/_30sdp"
+        android:layout_below="@id/fragment_restaurant_login_tv_forget_password"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/_30sdp"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:padding="@dimen/_5sdp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="@dimen/_80sdp"
+        android:layout_marginEnd="@dimen/_80sdp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_5sdp"
+            android:text="  Enter"
+            android:drawableLeft="@drawable/ic_exit_to_app"
+            android:textColor="#fff"
+            android:textSize="@dimen/_15ssp" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/fragment_restaurant_login_tv_register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#90757272"
+        android:layout_alignParentBottom="true"
+        android:textColor="#fff"
+        android:textSize="@dimen/_15ssp"
+        android:text="Haven't Account? press Here"
+        android:gravity="center"
+        android:padding="@dimen/_5sdp"/>
+
+</RelativeLayout>

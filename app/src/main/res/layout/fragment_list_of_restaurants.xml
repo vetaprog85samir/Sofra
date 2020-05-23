@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/fragment_list_of_restaurants">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_35sdp"
+        android:layout_marginTop="@dimen/_16sdp">
+
+        <LinearLayout
+
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <Spinner
+                android:id="@+id/fragment_list_of_restaurants_sp_city"
+                style="@style/spinner_style_arrow_downward"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_horizontal" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/fragment_list_of_restaurants_ll"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_marginBottom="@dimen/_8sdp">
+
+            <EditText
+                android:id="@+id/fragment_list_of_restaurants_et_search"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/background_text_round_corner_grey" />
+        </LinearLayout>
+
+        <ImageButton
+            android:id="@+id/fragment_list_of_restaurants_btn_search"
+            android:layout_width="@dimen/_40sdp"
+            android:layout_height="@dimen/_32sdp"
+            android:layout_marginBottom="@dimen/_8sdp"
+            android:background="@drawable/shape_circle_white"
+            app:srcCompat="@drawable/ic_search" />
+
+
+
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/fragment_list_of_restaurants_rv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/_8sdp"/>
+
+
+</LinearLayout>

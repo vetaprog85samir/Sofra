@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/fragment_show_food_list">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/fragment_show_food_list_rv_category"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_50sdp"
+        />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/fragment_show_food_list_rv_items"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/fragment_show_food_list_rv_category"
+        android:layout_marginTop="@dimen/_24sdp" />
+
+</RelativeLayout>

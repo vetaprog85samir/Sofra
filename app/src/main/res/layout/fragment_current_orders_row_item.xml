@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/_170sdp"
+    android:layout_margin="@dimen/_20sdp"
+    style="@style/background_fragment_complete_order_layout">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/fragment_current_orders_layout_main">
+
+        <ImageView
+            android:layout_width="@dimen/_90sdp"
+            android:layout_height="@dimen/_90sdp"
+            android:layout_gravity="center_vertical"
+            app:srcCompat="@drawable/ic_kfc_logo"
+            android:layout_margin="@dimen/_10sdp"
+            android:id="@+id/fragment_current_orders_iv_rest_logo"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="@dimen/_15sdp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#494545"
+                android:textSize="@dimen/_15ssp"
+                android:text="Chicken Fried Kentucky"
+                android:id="@+id/fragment_current_orders_tv_name"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#D80909"
+                android:textSize="@dimen/_10sdp"
+                android:text="Order No: 22631"
+                android:layout_marginTop="@dimen/_5ssp"
+                android:id="@+id/fragment_current_orders_tv_number"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#D80909"
+                android:textSize="@dimen/_10sdp"
+                android:text="Total Fees: 110 EGP"
+                android:layout_marginTop="@dimen/_5ssp"
+                android:id="@+id/fragment_current_orders_tv_cost"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#D80909"
+                android:textSize="@dimen/_10sdp"
+                android:text="Address: Giza - Cairo University"
+                android:layout_marginTop="@dimen/_5ssp"
+                android:id="@+id/fragment_current_orders_tv_address"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/background_fragment_complete_order_round_corner_layout_green"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_20sdp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/_10sdp"
+        android:id="@+id/fragment_current_orders_layout_confirm_delivery">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/ic_done_white"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Confirm Delivery"
+            android:textColor="#fff"
+            android:textSize="@dimen/_15ssp"
+            android:layout_marginStart="@dimen/_5sdp"/>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/fragment_cart">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/fragment_cart_rv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_10sdp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_10sdp"
+        android:textColor="#555252"
+        android:textSize="@dimen/_15ssp"
+        android:gravity="center_horizontal"
+        android:text="Total SUM"/>
+
+    <TextView
+        android:id="@+id/fragment_cart_tv"
+        android:layout_width="@dimen/_60sdp"
+        android:layout_height="@dimen/_60sdp"
+        android:layout_margin="@dimen/_10sdp"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        style="@style/background_fragment_cart_tv_circular"
+        android:textColor="#555252"
+        android:textSize="@dimen/_7ssp"
+        android:textStyle="bold"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_10sdp"
+        android:gravity="center_horizontal">
+
+        <ImageButton
+            android:layout_width="@dimen/_120sdp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_10sdp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/confirm_order_btn"
+            android:background="#FFF"
+            android:id="@+id/fragment_cart_btn_confirm_order"/>
+        <ImageButton
+            android:layout_width="@dimen/_120sdp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_10sdp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/add_more_btn"
+            android:background="#FFF"
+            android:id="@+id/fragment_cart_btn_add_more"/>
+
+    </LinearLayout>
+</LinearLayout>

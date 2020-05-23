@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_40sdp"
+        android:layout_marginStart="@dimen/_20sdp"
+        android:layout_marginEnd="@dimen/_20sdp"
+        android:textSize="@dimen/_30ssp"
+        android:text="Order Details"
+        android:gravity="center"/>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/fragment_confirm_order_notes"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_200sdp"
+        style="@style/text_view_round_corner_grey"
+        android:layout_marginStart="@dimen/_10sdp"
+        android:layout_marginEnd="@dimen/_10sdp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@null"
+            android:hint="Add Notes"
+            android:textSize="@dimen/_15ssp"
+            android:padding="@dimen/_20sdp"
+            android:gravity="top"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_25sdp"
+        android:textSize="@dimen/_15ssp"
+        android:layout_marginEnd="@dimen/_20sdp"
+        android:layout_marginStart="@dimen/_20sdp"
+        android:text="Delivery Address"
+        android:textColor="#363535"/>
+
+    <TextView
+        android:id="@+id/fragment_confirm_order_tv_address"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_25sdp"
+        android:textSize="@dimen/_15ssp"
+        android:layout_marginEnd="@dimen/_20sdp"
+        android:layout_marginStart="@dimen/_20sdp"
+        android:text="Giza - Cairo University"
+        android:textColor="#9E2525"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_25sdp"
+        android:textSize="@dimen/_15ssp"
+        android:layout_marginEnd="@dimen/_20sdp"
+        android:layout_marginStart="@dimen/_20sdp"
+        android:text="Payment"
+        android:textColor="#444242"/>
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/fragment_confirm_client_order_rb_group"
+        android:layout_marginTop="@dimen/_16sdp">
+
+        <RadioButton
+            android:id="@+id/fragment_confirm_client_order_rb_cash"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="pay Cash"
+            android:layout_gravity="start"
+            android:layout_margin="@dimen/_16sdp"/>
+
+
+        <RadioButton
+            android:id="@+id/fragment_confirm_client_order_rb_online"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="pay Online"
+            android:layout_gravity="end"
+            android:layout_margin="@dimen/_16sdp"/>
+
+    </RadioGroup>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_100sdp"
+        android:orientation="vertical"
+        android:layout_marginStart="@dimen/_20sdp"
+        android:layout_marginEnd="@dimen/_20sdp"
+        android:layout_marginTop="@dimen/_20sdp"
+        style="@style/background_show_food_list_row_item_layout"
+        android:padding="@dimen/_10sdp">
+
+        <TextView
+            android:id="@+id/fragment_confirm_order_tv_cost"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_25sdp"
+            android:textSize="@dimen/_15ssp"
+            android:text="Fees: 100 EGP"
+            android:textColor="#444242"/>
+
+
+        <TextView
+            android:id="@+id/fragment_confirm_order_delivery_fees"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_25sdp"
+            android:textSize="@dimen/_15ssp"
+            android:text="Delivery Fees: 10 EGP"
+            android:textColor="#444242"/>
+
+        <TextView
+            android:id="@+id/fragment_confirm_order_tv_total"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_25sdp"
+            android:textSize="@dimen/_15ssp"
+            android:text="Total Fees: 110 EGP"
+            android:textColor="#444242"/>
+
+
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/fragment_confirm_order_btn_confirm"
+        android:layout_width="@dimen/_120sdp"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_10sdp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/confirm_order_btn"
+        android:background="#FFF"
+        android:layout_gravity="center"/>
+
+</LinearLayout>
